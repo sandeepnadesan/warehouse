@@ -1,0 +1,37 @@
+/* frontend/src/styles/exportForm.css */
+
+.exportForm-container {
+    background-color: #f9e9e9;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exportForm-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .exportForm-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .exportForm-container input {
+    margin-bottom: 1rem;
+  }
+  
+  .exportForm-container button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .exportForm-container button:hover {
+    background-color: #0056b3;
+  }
+  
